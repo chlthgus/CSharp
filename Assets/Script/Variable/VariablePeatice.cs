@@ -6,8 +6,20 @@ public class VariablePeatice : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        int First = 10;
-        Debug.Log("First : " + First);
+        //[1] 변수 선언
+        int first, second, third;
+
+        //[2] 변수에 값 저장
+        first = 10;
+        second = 20;
+        third = 30;
+
+        //[3] 변수 사용
+        Debug.Log(first + "," + second + "," + third);
+
+        
+        //int First = 10;
+       // Debug.Log("First : " + First);
 
     }
 }
