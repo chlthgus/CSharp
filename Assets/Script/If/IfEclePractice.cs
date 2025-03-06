@@ -7,37 +7,59 @@ public class IfEclePractice : MonoBehaviour
     {
         
         int score = 85;
-        int g = 90;
-        int s = 80;
-        int u = 70;
-        int f = 0;
+        //string medal = "";
 
-
-
-        
-        if(g > score)
+        //[1] score가 90이상이면
+        if (score >= 90)
         {
-            Debug.Log("금메달을 수상하였습니다");
+            //medal = "금메달";
+        }
+        else   // 0~89
+        {
+            //[2] 80이상이면 은메달
+            if (score >= 80) 
+            {
+                //medal = "은메달";
+            }
+            else
+            {
+                //[3] 70이상이면 동메달
+                if(score >=70)
+                {
+                    //medal = "동메달";
+                }
+                else //0~69
+                {
+                    //medal = "노메달";
+                }
+            }
         }
 
-        if (s > score)
-        {
-            Debug.Log("은메달을 수상하였습니다");
-        }
 
-        if (u > score)
-        {
-            Debug.Log("동메달을 수상하였습니다");
-        }
 
-        if (f > score)
-        {
-            Debug.Log(" ");
-        }
+        /*  if(g > score)
+          {
+              Debug.Log("금메달을 수상하였습니다");
+          }
+
+          if (s > score)
+          {
+              Debug.Log("은메달을 수상하였습니다");
+          }
+
+          if (u > score)
+          {
+              Debug.Log("동메달을 수상하였습니다");
+          }
+
+          if (f > score)
+          {
+              Debug.Log(" ");
+          }*/
 
     }
 }
-
+      
 /*
  
 [Q]
