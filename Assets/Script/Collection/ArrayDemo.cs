@@ -7,7 +7,10 @@ public class ArrayDemo : MonoBehaviour
     {
         string[] colors = { "red", "green", "blue" };
 
-        Debug.Log($"¹è¿­ÀÇ ¿ä¼Ò¼ö °¹¼ö {colors.Length}");
-        //for (int i = 0; i < colors
+        Debug.Log($"ë°°ì—´ì˜ ìš”ì†Œìˆ˜ ê°¯ìˆ˜ {colors.Length}");
+       for (int i = 0; i < colors.Length; i++)
+        {
+            Debug.Log(colors[i]);
+        }
     }
 }
