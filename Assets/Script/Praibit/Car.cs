@@ -17,6 +17,11 @@ public class Car
         {
             Debug.Log("안녕히계세요");
         }
+
+        public void Setage(int iAge)
+        {
+            age = iAge;
+        }
 }
 
 }
