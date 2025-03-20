@@ -1,8 +1,16 @@
 using UnityEngine;
-namespace Property
+namespace Indexer
 {
     public class Person
     {
+
+        public string name;
+
+        public string this[int index]
+        {
+            get { return name; }
+            set { name = value; }
+        }
         /*
         
         private string name;
